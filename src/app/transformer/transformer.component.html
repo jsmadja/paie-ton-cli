@@ -1,0 +1,8 @@
+<h1>Colle le texte a transformer ici :</h1>
+<textarea id="src" #src (keyup)="transcode(src.value)" rows="4" cols="50"
+          style="width:100%; height:300px; border-radius:5px;"></textarea>
+
+<br/>
+
+<h1>Voila le resultat : </h1>
+<textarea id="dest" rows="4" cols="50" style="width:100%; height:300px; border-radius:5px;">{{dest}}</textarea>
